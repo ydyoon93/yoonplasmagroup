@@ -1,2 +1,63 @@
-// Component styles are added per-feature in subsequent tasks
-// (hero, news list, publications, team, press).
+// Hero
+.hero {
+  position: relative;
+  height: 320px;
+  background: linear-gradient(135deg, var(--ink) 0%, var(--brand) 100%);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.5rem 0;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.55) 100%);
+  pointer-events: none;
+}
+.hero-overlay {
+  position: relative;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 1.5rem;
+  width: 100%;
+}
+.hero-title {
+  color: #fff;
+  font-size: 2.25rem;
+  margin: 0;
+  line-height: 1.1;
+}
+.hero-tagline {
+  color: #fff;
+  opacity: 0.95;
+  font-size: 1rem;
+  margin: 0.5rem 0 0;
+  max-width: 700px;
+}
+.hero-caption {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.75);
+  z-index: 1;
+}
+
+// Home grid
+.home-blocks {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2.5rem;
+}
+.home-about p:first-child { margin-top: 0; }
