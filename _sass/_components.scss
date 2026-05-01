@@ -61,3 +61,24 @@
   gap: 2.5rem;
 }
 .home-about p:first-child { margin-top: 0; }
+
+// News list (used on home and /news/)
+.news-list { list-style: none; padding: 0; margin: 0; }
+.news-item {
+  padding: 0.55rem 0;
+  border-bottom: 1px dotted var(--rule);
+  font-size: 0.95rem;
+}
+.news-date { color: var(--brand); font-weight: 600; }
+.news-sep  { color: var(--muted); margin: 0 0.4rem; }
+.news-more {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+}
+.news-archive .news-item { padding: 0.85rem 0; }
+.news-body {
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}

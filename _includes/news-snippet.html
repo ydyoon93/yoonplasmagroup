@@ -1,0 +1,18 @@
+{% assign sorted_news = site.news | sort: 'date' | reverse %}
+{% assign latest = sorted_news | slice: 0, 5 %}
+<ul class="news-list">
+  {% for item in latest %}
+    <li class="news-item">
+      <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
+      <span class="news-sep">·</span>
+      {% if item.link %}
+        <a href="{{ item.link | relative_url }}">{{ item.title }}</a>
+      {% else %}
+        <span>{{ item.title }}</span>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% if sorted_news.size > 5 %}
+  <a class="news-more" href="{{ '/news/' | relative_url }}">More →</a>
+{% endif %}
