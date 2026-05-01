@@ -132,3 +132,21 @@
 .pub-meta    { font-size: 0.9rem; color: var(--muted); margin-top: 0.1rem; font-style: italic; }
 .pub-links   { margin-top: 0.35rem; font-size: 0.85rem; }
 .pub-links a { margin-right: 0.75rem; }
+
+// Press
+.press-list { list-style: none; padding: 0; margin: 0; }
+.press-item {
+  padding: 0.95rem 0;
+  border-bottom: 1px dotted var(--rule);
+}
+.press-date   { color: var(--brand); font-weight: 600; font-size: 0.85rem; }
+.press-outlet { color: var(--ink); font-weight: 600; font-size: 0.95rem; margin-top: 0.1rem; }
+.press-title  { font-size: 0.95rem; margin-top: 0.1rem; }
+.press-quote {
+  margin: 0.5rem 0 0;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--gold);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.press-quote p { margin: 0; }
