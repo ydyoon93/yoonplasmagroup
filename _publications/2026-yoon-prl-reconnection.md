@@ -1,5 +1,5 @@
 ---
-title: "Theory of magnetic reconnection in collisionless plasmas"
+title: "[PLACEHOLDER] Theory of magnetic reconnection in collisionless plasmas"
 authors: "Y. D. Yoon, J. Doe"
 journal: "Physical Review Letters"
 volume: "133"
