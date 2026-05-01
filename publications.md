@@ -24,7 +24,7 @@ permalink: /publications/
           <div class="pub-links">
             {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">DOI</a>{% endif %}
             {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv</a>{% endif %}
-            {% if pub.url %}<a href="{{ pub.url }}">Link</a>{% endif %}
+            {% if pub.link %}<a href="{{ pub.link }}">Link</a>{% endif %}
             {% if pub.pdf %}<a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}
           </div>
         </li>

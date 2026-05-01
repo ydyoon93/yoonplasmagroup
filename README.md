@@ -23,7 +23,7 @@ year: 2026
 date: 2026-04-15        # used for sorting
 doi: "10.1103/PhysRevLett.133.215001"     # optional
 arxiv: "2604.12345"                        # optional
-url: "https://..."                         # optional, if no DOI/arxiv
+link: "https://..."                        # optional, if no DOI/arxiv
 pdf: "/assets/pdfs/yoon-2026-prl.pdf"     # optional, self-hosted
 ---
 ```
