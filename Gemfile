@@ -10,3 +10,7 @@ gem "base64"
 gem "bigdecimal"
 gem "logger"
 gem "mutex_m"
+
+group :test do
+  gem "html-proofer"
+end
