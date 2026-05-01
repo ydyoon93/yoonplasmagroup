@@ -1,0 +1,20 @@
+<article class="team-card">
+  {% if include.member.photo %}
+    <img class="team-photo" src="{{ include.member.photo | relative_url }}" alt="{{ include.member.name }}">
+  {% else %}
+    <div class="team-photo team-photo-placeholder"></div>
+  {% endif %}
+  <div class="team-info">
+    <h3 class="team-name">{{ include.member.name }}</h3>
+    <div class="team-title">{{ include.member.title }}</div>
+    {% if include.member.content and include.member.content != "" %}
+      <div class="team-bio">{{ include.member.content | markdownify }}</div>
+    {% endif %}
+    <div class="team-links">
+      {% if include.member.email %}<a href="mailto:{{ include.member.email }}">email</a>{% endif %}
+      {% if include.member.website %}<a href="{{ include.member.website }}">website</a>{% endif %}
+      {% if include.member.scholar %}<a href="{{ include.member.scholar }}">scholar</a>{% endif %}
+      {% if include.member.github %}<a href="https://github.com/{{ include.member.github }}">github</a>{% endif %}
+    </div>
+  </div>
+</article>

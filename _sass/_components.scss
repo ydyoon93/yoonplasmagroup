@@ -82,3 +82,32 @@
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+// Team
+.team-section { margin-top: 2rem; }
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+.team-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+}
+.team-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+.team-photo-placeholder {
+  background: linear-gradient(135deg, var(--ink), var(--brand));
+}
+.team-name  { margin: 0.6rem 0 0.1rem; font-size: 1rem; }
+.team-title { color: var(--muted); font-size: 0.85rem; }
+.team-bio   { font-size: 0.875rem; margin: 0.5rem 0; }
+.team-links { font-size: 0.8rem; }
+.team-links a { margin-right: 0.5rem; }
