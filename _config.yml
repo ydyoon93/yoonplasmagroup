@@ -13,6 +13,35 @@ repository: yoonplasmagroup/yoonplasmagroup
 permalink: pretty
 markdown: kramdown
 
+collections:
+  team:
+    output: false
+  publications:
+    output: false
+  news:
+    output: false
+  press:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+nav:
+  - title: Research
+    url: /research/
+  - title: Team
+    url: /team/
+  - title: Publications
+    url: /publications/
+  - title: Press
+    url: /press/
+  - title: Contact
+    url: /contact/
+
 exclude:
   - Gemfile
   - Gemfile.lock
