@@ -5,3 +5,8 @@
   </div>
   <div class="hero-caption" id="hero-caption"></div>
 </section>
+<script>
+  window.HERO_IMAGES = {{ site.data.hero | jsonify }};
+  window.HERO_BASE = "{{ '/assets/hero/' | relative_url }}";
+</script>
+<script src="{{ '/assets/js/hero-rotate.js' | relative_url }}" defer></script>

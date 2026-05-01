@@ -1,0 +1,4 @@
+# Hero image manifest. Each entry pairs a filename in assets/hero/
+# with a caption shown in the hero's upper-right corner.
+# Empty list = gradient fallback (no rotating images).
+[]
