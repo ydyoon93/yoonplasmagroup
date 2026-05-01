@@ -217,6 +217,12 @@ description: "Yoon Plasma Group at UCLA — theoretical and numerical plasma phy
 url: "https://yoonplasmagroup.com"
 baseurl: ""
 
+# Required by jekyll-github-metadata (auto-loaded by github-pages gem).
+# Value is not consumed by any template in this site — it only satisfies
+# the plugin so local builds succeed before a git remote exists. Update
+# in Task 16 to match the actual GitHub repo if desired (cosmetic).
+repository: yoonplasmagroup/yoonplasmagroup
+
 permalink: pretty
 markdown: kramdown
 
@@ -1223,7 +1229,7 @@ permalink: /publications/
           <div class="pub-links">
             {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">DOI</a>{% endif %}
             {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv</a>{% endif %}
-            {% if pub.url %}<a href="{{ pub.url }}">Link</a>{% endif %}
+            {% if pub.link %}<a href="{{ pub.link }}">Link</a>{% endif %}
             {% if pub.pdf %}<a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}
           </div>
         </li>
@@ -1738,7 +1744,7 @@ year: 2026
 date: 2026-04-15        # used for sorting
 doi: "10.1103/PhysRevLett.133.215001"     # optional
 arxiv: "2604.12345"                        # optional
-url: "https://..."                         # optional, if no DOI/arxiv
+link: "https://..."                        # optional, if no DOI/arxiv
 pdf: "/assets/pdfs/yoon-2026-prl.pdf"     # optional, self-hosted
 ---
 ```

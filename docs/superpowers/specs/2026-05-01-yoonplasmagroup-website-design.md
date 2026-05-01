@@ -150,7 +150,7 @@ year: 2026
 date: 2026-04-15        # used for sorting; required
 doi: "10.1103/PhysRevLett.133.215001"     # optional
 arxiv: "2604.12345"                        # optional
-url: "https://..."                         # optional, if no DOI/arxiv
+link: "https://..."                        # optional, if no DOI/arxiv. (Named `link`, not `url`, because Jekyll auto-populates `url` on every collection item with a permalink.)
 pdf: "/assets/pdfs/yoon-2026-prl.pdf"     # optional, self-hosted PDF
 featured: false                            # optional, true = highlight
 ---
