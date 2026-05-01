@@ -111,3 +111,24 @@
 .team-bio   { font-size: 0.875rem; margin: 0.5rem 0; }
 .team-links { font-size: 0.8rem; }
 .team-links a { margin-right: 0.5rem; }
+
+// Publications
+.pub-year-section { margin-top: 1.5rem; }
+.pub-year {
+  color: var(--ink);
+  font-size: 1.4rem;
+  border-bottom: 2px solid var(--gold);
+  display: inline-block;
+  padding-bottom: 0.2rem;
+  margin: 1rem 0 0.4rem;
+}
+.pub-list { list-style: none; padding: 0; margin: 0; }
+.pub-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px dotted var(--rule);
+}
+.pub-title   { font-weight: 600; color: var(--text); }
+.pub-authors { color: var(--muted); font-size: 0.95rem; margin-top: 0.1rem; }
+.pub-meta    { font-size: 0.9rem; color: var(--muted); margin-top: 0.1rem; font-style: italic; }
+.pub-links   { margin-top: 0.35rem; font-size: 0.85rem; }
+.pub-links a { margin-right: 0.75rem; }
