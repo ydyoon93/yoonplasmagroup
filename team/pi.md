@@ -3,25 +3,18 @@ title: Young Dae Yoon
 permalink: /team/pi/
 ---
 
-**Assistant Professor**, UCLA Department of Physics &amp; Astronomy
+**(Incoming) Assistant Professor**, UCLA Department of Physics &amp; Astronomy
 
-## Current Positions
+## Experience
 
-- Assistant Professor, UCLA Department of Physics &amp; Astronomy
-- Junior Research Group Leader, Asia Pacific Center for Theoretical Physics
-- Adjunct Professor, Pohang University of Science and Technology
+- Junior Research Group Leader, Asia Pacific Center for Theoretical Physics (2022-Present)
+- Adjunct Professor, Pohang University of Science and Technology (2023-Present)
 
 ## Education
 
-- **PhD and MSc, Applied Physics**, California Institute of Technology (2014–2020)
+- **PhD, Applied Physics**, California Institute of Technology (2017–2020)
+- **MSc, Applied Physics**, California Institute of Technology (2014–2017)
 - **BSc, Physics** (First Class Honours), Imperial College London (2011–2014)
-
-## Research Interests
-
-Magnetic reconnection, magnetogenesis, non-equilibrium dynamics, relativistic
-wave-particle interactions, runaway electrons, magnetic turbulence, and
-accelerator physics — with applications spanning planetary magnetospheres,
-stellar phenomena, fusion, and particle accelerators.
 
 ## Selected Honors and Awards
 
