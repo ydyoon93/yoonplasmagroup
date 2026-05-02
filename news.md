@@ -9,14 +9,15 @@ permalink: /news/
   <li class="news-item">
     <span class="news-date">{{ item.date | date: "%b %-d, %Y" }}</span>
     <span class="news-sep">·</span>
-    {% if item.link %}
-      <a href="{{ item.link | relative_url }}">{{ item.title }}</a>
+    {% assign link = item.link | strip %}
+    {% if link != "" %}
+      <a href="{{ link | relative_url }}">{{ item.title }}</a>
     {% else %}
       <span>{{ item.title }}</span>
     {% endif %}
-    {% assign body = item.content | strip %}
-    {% if body != "" %}
-      <div class="news-body">{{ body | markdownify }}</div>
+    {% assign desc = item.description | strip %}
+    {% if desc != "" %}
+      <div class="news-body">{{ desc | markdownify }}</div>
     {% endif %}
   </li>
 {% endfor %}

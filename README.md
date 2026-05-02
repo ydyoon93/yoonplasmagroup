@@ -38,11 +38,13 @@ Create `_news/YYYY-MM-DD-slug.md`:
 ---
 date: 2026-04-15
 title: "Paper accepted in PRL"
-link: "/publications/#2026-yoon-prl-reconnection"   # optional
+description: "Optional one-line context that shows below the title on /news/. Inline Markdown like *italic* and [links](https://example.com) work."
+link: ""    # optional URL; leave as "" if there's nothing to link to
 ---
 ```
 
-Latest 5 news items show on the homepage; all show at `/news/`.
+The body of the file should be empty — everything goes in front matter.
+Latest 3 news items show on the homepage; all show at `/news/`.
 
 ### Add a team member
 
