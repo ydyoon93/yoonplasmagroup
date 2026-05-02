@@ -49,36 +49,48 @@
   z-index: 1;
 }
 
-// Hero browse arrows
+// Hero browse arrows — pinned to the left/right edges, fade in on hover
 .hero-nav {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
+  bottom: 0;
   z-index: 2;
-  width: 44px;
-  height: 44px;
+  width: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0);
   color: #fff;
   border: none;
-  border-radius: 50%;
-  font-size: 1.75rem;
+  font-size: 2rem;
   line-height: 1;
   padding: 0;
   cursor: pointer;
-  opacity: 0.7;
-  transition: background 0.15s, opacity 0.15s;
+  opacity: 0;
+  transition: background 0.2s ease, opacity 0.2s ease;
+}
+.hero-prev { left: 0; }
+.hero-next { right: 0; }
+
+// Show on hero hover, on focus-within (keyboard), or when the button itself
+// is focused (accessibility — never trap focus invisibly).
+.hero:hover .hero-nav,
+.hero:focus-within .hero-nav {
+  opacity: 0.85;
+  background: rgba(0, 0, 0, 0.25);
 }
 .hero-nav:hover,
 .hero-nav:focus-visible {
-  background: rgba(0, 0, 0, 0.55);
   opacity: 1;
+  background: rgba(0, 0, 0, 0.45);
   outline: none;
 }
-.hero-prev { left: 1rem; }
-.hero-next { right: 1rem; }
+
+// Touch-only devices have no hover — keep arrows visible at low opacity
+// so the user can still navigate.
+@media (hover: none) {
+  .hero-nav { opacity: 0.7; background: rgba(0, 0, 0, 0.25); }
+}
 
 // Home grid
 .home-blocks {
