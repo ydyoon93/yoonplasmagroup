@@ -3,6 +3,8 @@ title: Young Dae Yoon
 permalink: /team/pi/
 ---
 
+<img class="pi-photo" src="{{ '/assets/team/young-dae-yoon.jpg' | relative_url }}" alt="Young Dae Yoon">
+
 **(Incoming) Assistant Professor**, UCLA Department of Physics &amp; Astronomy
 
 ## Experience

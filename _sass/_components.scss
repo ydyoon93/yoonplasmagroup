@@ -112,6 +112,15 @@
 .team-links { font-size: 0.8rem; }
 .team-links a { margin-right: 0.5rem; }
 
+// PI page portrait — floats right next to bio text
+.pi-photo {
+  float: right;
+  width: 220px;
+  max-width: 40%;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: var(--radius-sm);
+}
+
 // Alumni list (no photos — name + title rendered inline)
 .alumni-list { list-style: none; padding: 0; margin: 0; }
 .alumni-item {
