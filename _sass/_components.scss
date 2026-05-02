@@ -24,6 +24,8 @@
   margin: 0 auto;
   padding: 1.5rem;
   width: 100%;
+  z-index: 3;
+  pointer-events: none;
 }
 .hero-title {
   color: #fff;
