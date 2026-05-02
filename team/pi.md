@@ -21,11 +21,11 @@ permalink: /team/pi/
 ## Selected Honors and Awards
 
 - **Korean Physical Society, Young Plasma Physicist Award** (2025)
-- **Outstanding Young Scientist Grant**, NRF of Korea (2025–2030)
-- **Junior Research Group Grant**, APCTP (2022–2027)
+- **Outstanding Young Scientist Grant**, NRF of Korea: 1,158M KRW (2025–2030)
+- **Junior Research Group Grant**, APCTP: 500M KRW (2022–2027)
 - **Under-30 Scientist and Student Award**, AAPPS (2022)
-- **POSCO TJ Park Foundation Science Fellowship** (2022–2024)
-- **POSTECH PIURI Post-Doctoral Fellowship** (2021–2023)
+- **POSCO TJ Park Foundation Science Fellowship**: 70M KRW (2022–2024)
+- **POSTECH PIURI Post-Doctoral Fellowship**: 75M KRW (2021–2023)
 
 ## Professional Service
 
