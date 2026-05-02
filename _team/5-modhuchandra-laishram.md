@@ -1,7 +1,7 @@
 ---
 name: "Modhuchandra Laishram"
-role: "Postdoc"
+role: "Alumni"
 title: "Postdoctoral Researcher · APCTP"
-order: 4
+order: 1
 ---
 Magnetogenesis via the canonical battery effect.

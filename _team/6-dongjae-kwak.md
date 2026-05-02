@@ -1,7 +1,7 @@
 ---
 name: "Dongjae Kwak"
-role: "Grad"
+role: "Alumni"
 title: "PhD Student · POSTECH"
-order: 1
+order: 3
 ---
 Kinetic equilibrium theory and PIC simulations.

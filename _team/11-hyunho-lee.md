@@ -2,6 +2,6 @@
 name: "Hyunho Lee"
 role: "Alumni"
 title: "BSc Student · POSTECH (2024 – 2025)"
-order: 2
+order: 5
 ---
 Reconnection thruster.

@@ -1,7 +1,7 @@
 ---
 name: "Hyelin Kang"
-role: "Grad"
+role: "Alumni"
 title: "PhD Student · POSTECH"
-order: 2
+order: 4
 ---
 Runaway electrons in fusion devices: theory and simulations.
