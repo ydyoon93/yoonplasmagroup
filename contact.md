@@ -7,9 +7,9 @@ permalink: /contact/
 Assistant Professor<br>
 UCLA Department of Physics &amp; Astronomy
 
-**Email:** yoon@physics.ucla.edu
+**Email:** ydyoon@physics.ucla.edu
 
-**Office:** Knudsen Hall (room number to be added)
+**Office:** PAB 4-714
 
 **Mailing address:**<br>
 Department of Physics &amp; Astronomy<br>
