@@ -24,12 +24,12 @@ permalink: /team/pi/
 - **Outstanding Young Scientist Grant**, NRF of Korea (2025–2030)
 - **Junior Research Group Grant**, APCTP (2022–2027)
 - **Under-30 Scientist and Student Award**, AAPPS (2022)
-- **Career Mentoring Fellow**, American Physical Society (2022–present)
 - **POSCO TJ Park Foundation Science Fellowship** (2022–2024)
 - **POSTECH PIURI Post-Doctoral Fellowship** (2021–2023)
 
 ## Professional Service
 
+- **Career Mentoring Fellow**, American Physical Society (2022–present)
 - **Program Committee Chair**, International Fusion and Plasma Conference, Korea (2025)
 - **Program Committee**, International Fusion and Plasma Conference, Seoul (2024)
 - Ad-hoc reviewer for *Nature Communications*, *Physics of Plasmas*, *Journal of Plasma Physics*, *Nuclear Fusion*, *Geophysical Research Letters*, *The Astrophysical Journal*, *Plasma Physics and Controlled Fusion*, and *Physica Scripta*
