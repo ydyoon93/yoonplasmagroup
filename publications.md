@@ -15,18 +15,23 @@ permalink: /publications/
     <h2 class="pub-year">{{ year_group.name }}</h2>
     <ul class="pub-list">
       {% for pub in year_group.items %}
+        {%- assign primary_link = nil -%}
+        {%- if pub.doi -%}{%- assign primary_link = pub.doi | prepend: "https://doi.org/" -%}
+        {%- elsif pub.link -%}{%- assign primary_link = pub.link -%}
+        {%- elsif pub.arxiv -%}{%- assign primary_link = pub.arxiv | prepend: "https://arxiv.org/abs/" -%}
+        {%- endif -%}
         <li class="pub-item" id="{{ pub.slug }}">
           <div class="pub-title">{{ pub.title }}</div>
           <div class="pub-authors">{{ pub.authors }}</div>
           <div class="pub-meta">
-            {{ pub.journal }}{% if pub.volume %} <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %} ({{ pub.year }})
+            {% if primary_link %}<a href="{{ primary_link }}">{% endif %}{{ pub.journal }}{% if pub.volume %} <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %} ({{ pub.year }}){% if primary_link %}</a>{% endif %}
           </div>
+          {% if pub.arxiv or pub.pdf %}
           <div class="pub-links">
-            {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">DOI</a>{% endif %}
             {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv</a>{% endif %}
-            {% if pub.link %}<a href="{{ pub.link }}">Link</a>{% endif %}
             {% if pub.pdf %}<a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}
           </div>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
