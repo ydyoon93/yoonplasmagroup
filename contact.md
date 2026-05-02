@@ -4,7 +4,7 @@ permalink: /contact/
 ---
 
 **Young Dae Yoon**<br>
-Assistant Professor<br>
+Incoming Assistant Professor<br>
 UCLA Department of Physics &amp; Astronomy
 
 **Email:** ydyoon@physics.ucla.edu
