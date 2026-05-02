@@ -2,7 +2,7 @@ title: Yoon Plasma Group
 tagline: "Theoretical and numerical studies of laboratory, astrophysical, space, and fusion plasmas"
 description: "Yoon Plasma Group at UCLA — theoretical and numerical plasma physics."
 url: "https://yoonplasmagroup.com"
-baseurl: ""
+baseurl: "/yoonplasmagroup"
 
 # Required by jekyll-github-metadata (auto-loaded by github-pages gem).
 # Value is not consumed by any template in this site — it only satisfies
