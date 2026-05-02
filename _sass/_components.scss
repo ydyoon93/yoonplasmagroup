@@ -112,6 +112,19 @@
 .team-links { font-size: 0.8rem; }
 .team-links a { margin-right: 0.5rem; }
 
+// Alumni list (no photos — name + title rendered inline)
+.alumni-list { list-style: none; padding: 0; margin: 0; }
+.alumni-item {
+  padding: 0.55rem 0;
+  border-bottom: 1px dotted var(--rule);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.alumni-name  { font-weight: 600; color: var(--text); }
+.alumni-sep   { color: var(--muted); margin: 0 0.15rem; }
+.alumni-title { color: var(--muted); }
+.alumni-bio   { color: var(--muted); }
+
 // Publications
 .pub-year-section { margin-top: 1.5rem; }
 .pub-year {

@@ -23,11 +23,13 @@ permalink: /team/members/
 {% if alumni.size > 0 %}
 <section class="team-section">
   <h2 class="section-title">Alumni</h2>
-  <div class="team-grid">
+  <ul class="alumni-list">
     {% assign alumni_sorted = alumni | sort: "order" %}
     {% for member in alumni_sorted %}
-      {% include team-card.html member=member %}
+      <li class="alumni-item">
+        <span class="alumni-name">{{ member.name }}</span>{% if member.title %} <span class="alumni-sep">·</span> <span class="alumni-title">{{ member.title }}</span>{% endif %}{% assign bio = member.content | strip %}{% if bio != "" %} <span class="alumni-sep">·</span> <span class="alumni-bio">{{ bio | markdownify | strip_html | strip }}</span>{% endif %}
+      </li>
     {% endfor %}
-  </div>
+  </ul>
 </section>
 {% endif %}
