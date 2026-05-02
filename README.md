@@ -67,20 +67,6 @@ Optional Markdown bio.
 
 Drop the headshot at `assets/team/jane-doe.jpg` to match the `photo:` path.
 
-### Add a press item
-
-Create `_press/YYYY-MM-DD-slug.md`:
-
-```yaml
----
-date: 2025-09-12
-outlet: "Quanta Magazine"
-title: "Article title"
-link: "https://..."
----
-Optional pull-quote as Markdown — renders as a styled blockquote.
-```
-
 ### Swap a hero image
 
 1. Drop a JPG/WebP into `assets/hero/`.

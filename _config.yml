@@ -20,8 +20,6 @@ collections:
     output: false
   news:
     output: false
-  press:
-    output: false
 
 defaults:
   - scope:
@@ -42,8 +40,8 @@ nav:
         url: /team/members/
   - title: Publications
     url: /publications/
-  - title: Press
-    url: /press/
+  - title: News
+    url: /news/
   - title: Contact
     url: /contact/
 
