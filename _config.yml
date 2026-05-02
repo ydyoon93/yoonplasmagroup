@@ -34,7 +34,12 @@ nav:
   - title: Research
     url: /research/
   - title: Team
-    url: /team/
+    url: /team/pi/
+    children:
+      - title: PI
+        url: /team/pi/
+      - title: Members
+        url: /team/members/
   - title: Publications
     url: /publications/
   - title: Press

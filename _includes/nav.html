@@ -5,7 +5,18 @@
             onclick="this.nextElementSibling.classList.toggle('open')">≡</button>
     <ul class="nav-links">
       {% for item in site.nav %}
-        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% if item.children %}
+          <li class="nav-has-children">
+            <a href="{{ item.url | relative_url }}">{{ item.title }}<span class="nav-caret" aria-hidden="true">▾</span></a>
+            <ul class="nav-dropdown">
+              {% for sub in item.children %}
+                <li><a href="{{ sub.url | relative_url }}">{{ sub.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% else %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endif %}
       {% endfor %}
     </ul>
   </div>
