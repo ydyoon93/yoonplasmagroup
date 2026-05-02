@@ -4,4 +4,4 @@ role: "Postdoc"
 title: "Postdoctoral Researcher · APCTP"
 order: 1
 ---
-Plasma observations.
+PINN reconstructions of spacecraft reconnection sites

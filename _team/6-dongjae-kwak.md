@@ -4,4 +4,4 @@ role: "Alumni"
 title: "PhD Student · POSTECH"
 order: 3
 ---
-Kinetic equilibrium theory and PIC simulations.
+Plasma waves
