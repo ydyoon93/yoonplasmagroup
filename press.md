@@ -21,8 +21,9 @@ permalink: /press/
         {{ item.title }}
       {% endif %}
     </div>
-    {% if item.content and item.content != "" %}
-      <blockquote class="press-quote">{{ item.content | markdownify }}</blockquote>
+    {% assign quote = item.content | strip %}
+    {% if quote != "" %}
+      <blockquote class="press-quote">{{ quote | markdownify }}</blockquote>
     {% endif %}
   </li>
 {% endfor %}

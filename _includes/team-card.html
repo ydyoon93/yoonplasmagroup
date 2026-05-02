@@ -7,8 +7,9 @@
   <div class="team-info">
     <h3 class="team-name">{{ include.member.name }}</h3>
     <div class="team-title">{{ include.member.title }}</div>
-    {% if include.member.content and include.member.content != "" %}
-      <div class="team-bio">{{ include.member.content | markdownify }}</div>
+    {% assign bio = include.member.content | strip %}
+    {% if bio != "" %}
+      <div class="team-bio">{{ bio | markdownify }}</div>
     {% endif %}
     <div class="team-links">
       {% if include.member.email %}<a href="mailto:{{ include.member.email }}">email</a>{% endif %}

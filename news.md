@@ -14,8 +14,9 @@ permalink: /news/
     {% else %}
       <span>{{ item.title }}</span>
     {% endif %}
-    {% if item.content and item.content != "" %}
-      <div class="news-body">{{ item.content | markdownify }}</div>
+    {% assign body = item.content | strip %}
+    {% if body != "" %}
+      <div class="news-body">{{ body | markdownify }}</div>
     {% endif %}
   </li>
 {% endfor %}
