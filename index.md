@@ -3,8 +3,4 @@ layout: home
 permalink: /
 ---
 
-The Yoon Plasma Group at UCLA develops theory and large-scale numerical
-simulations to understand plasma processes spanning laboratory experiments,
-the heliosphere, accretion disks, and fusion devices. We work closely with
-experimentalists and observers, and our codes and methods are openly shared
-with the community.
+The Yoon Plasma Group conducts theoretical and numerical investigations of cross-disciplinary plasma physics problems pertaining to various systems including laboratory, space, astrophysical, and fusion plasmas. Some specific topics include magnetic reconnection, magnetogenesis, non-equilibrium dynamics, wave-particle interactions, plasma thermodynamics, runaway electrons, and accelerator physics.
