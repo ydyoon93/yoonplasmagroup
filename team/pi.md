@@ -9,8 +9,9 @@ permalink: /team/pi/
 
 ## Experience
 
-- Junior Research Group Leader, Asia Pacific Center for Theoretical Physics (2022-Present)
 - Adjunct Professor, Pohang University of Science and Technology (2023-Present)
+- Junior Research Group Leader, Asia Pacific Center for Theoretical Physics (2022-Present)
+- Post-Doc (Alternative Military Service), Pohang Accelerator Laboratory (2020-2022)
 
 ## Education
 
