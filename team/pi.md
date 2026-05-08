@@ -28,6 +28,14 @@ permalink: /team/pi/
 - **POSCO TJ Park Foundation Science Fellowship**: 70M KRW (2022–2024)
 - **POSTECH PIURI Post-Doctoral Fellowship**: 75M KRW (2021–2023)
 
+## Selected Invited Talks
+
+- **APS Division of Plasma Physics Annual Meeting**, Atlanta, GA, USA (2024)
+- **International Particle Accelerator Conference**, Venice, Italy (2023)
+- **International Congress on Plasma Physics** Gyeongju, South Korea (2023)
+- **APS Division of Plasma Physics Annual Meeting**, Virtual Conference (2020)
+- **APS Division of Plasma Physics Annual Meeting**, Milwaukee, WI, USA (2017)
+
 ## Professional Service
 
 - **Career Mentoring Fellow**, American Physical Society (2022–present)
