@@ -52,4 +52,18 @@
   }
 
   .hero-nav { width: 36px; font-size: 1.25rem; }
+
+  .research-lede { font-size: 1rem; }
+  .research-index { margin-bottom: 1.5rem; }
+  .research-index a { max-width: 100%; }
+  .research-topic,
+  .research-topic--reverse {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2.25rem 0;
+  }
+  .research-topic--reverse .research-copy,
+  .research-topic--reverse .research-figure { order: initial; }
+  .research-copy h2 { font-size: 1.4rem; }
+  .research-figure { max-width: 560px; }
 }
