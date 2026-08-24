@@ -72,7 +72,6 @@ permalink: /research/
           <li><a href="https://doi.org/10.1029/2024GL112126">Enablement or suppression of magnetic reconnection by plasma beta and guide field</a>, <cite>Geophysical Research Letters</cite> (2024)</li>
           <li><a href="https://doi.org/10.1063/5.0198223">Fast Alfvén waves in an applied-field MPD thruster</a>, <cite>Physics of Plasmas</cite> (2024)</li>
           <li><a href="https://schedule.aps.org/gec/2025/events/DW5/45">A reconnection-based thruster concept using an asymmetric current source</a>, APS GEC (2025)</li>
-          <li><a href="https://electricrocket.org/2019/940.pdf">A thruster using magnetic reconnection to create a high-speed plasma jet</a>, IEPC-2019-940 (2019)</li>
         </ul>
       </div>
     </div>
@@ -101,7 +100,6 @@ permalink: /research/
           <li><a href="https://doi.org/10.12942/lrr-2011-4">The Einstein–Vlasov system / kinetic theory</a>, <cite>Living Reviews in Relativity</cite> (2011)</li>
           <li><a href="https://arxiv.org/abs/1207.0465">Gravito-electromagnetic analogies</a>, Costa &amp; Natário (2012)</li>
           <li><a href="https://www-cv01.ufinity.jp/isas/cvclients/researchers/hiroshihasegawa?achievement_type=presentations&amp;lang=en">Reconstruction of canonical-vorticity fields during magnetic reconnection by PINNs</a>, APS DPP presentation (2026)</li>
-          <li><a href="https://doi.org/10.1017/S0022377826102013">Machine-learning approaches to moment-closure relations for plasma</a>, <cite>Journal of Plasma Physics</cite> (2026)</li>
         </ul>
       </div>
     </div>
