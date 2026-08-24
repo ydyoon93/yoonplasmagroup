@@ -42,10 +42,10 @@ permalink: /research/
       </div>
     </div>
     <figure class="research-figure">
-      <a href="https://doi.org/10.1007/s43673-025-00146-w">
-        <img src="{{ '/assets/research/canonical-vorticity-reconnection.webp' | relative_url }}" alt="Black magnetic field lines reconnect while red electron canonical-vorticity field lines remain continuous around a green electron-flow layer" width="1200" height="555" loading="lazy" decoding="async">
+      <a href="https://doi.org/10.1038/s41467-023-35821-9">
+        <img src="{{ '/assets/research/fundamental-current-sheet-relaxation.webp' | relative_url }}" alt="A disequilibrated Harris current sheet with a weak guide field relaxes into a mixed equilibrium with a locally amplified guide field" width="1320" height="780" loading="lazy" decoding="async">
       </a>
-      <figcaption>Magnetic field lines (black), electron canonical-vorticity lines (red), and electron flow (green) in a reconnection geometry. <a href="https://doi.org/10.1007/s43673-025-00146-w">Yoon, 2025, Fig. 1</a>. CC BY 4.0.</figcaption>
+      <figcaption>A disequilibrated Harris current sheet relaxes into a mixed equilibrium while locally amplifying its guide field. Cropped from <a href="https://doi.org/10.1038/s41467-023-35821-9">Yoon et al., 2023, Fig. 1d</a>. CC BY 4.0.</figcaption>
     </figure>
   </section>
 
@@ -76,10 +76,10 @@ permalink: /research/
       </div>
     </div>
     <figure class="research-figure">
-      <a href="https://doi.org/10.1017/S0022377826101998">
-        <img src="{{ '/assets/research/wave-particle-firewall.webp' | relative_url }}" alt="Electron momentum trajectory interacting with a circularly polarized wave, shown in the wave frame and laboratory frame" width="1529" height="720" loading="lazy" decoding="async">
+      <a href="https://doi.org/10.1038/s41586-025-09345-9">
+        <img src="{{ '/assets/research/applied-flux-rope-pic-simulation.webp' | relative_url }}" alt="Three-dimensional particle-in-cell simulations compare stable and merging beam-driven flux ropes using current-density volumes, magnetic field lines, and electron drift velocity maps" width="2170" height="1866" loading="lazy" decoding="async">
       </a>
-      <figcaption>An electron’s momentum-space trajectory under a magnetic field, parallel electric field, and circularly polarized R-wave—illustrating the resonant dynamics behind the firewall effect. <a href="https://doi.org/10.1017/S0022377826101998">Kang et al., 2026, Fig. 1</a>. CC BY 4.0.</figcaption>
+      <figcaption>Particle-in-cell simulations comparing stable and merging beam-driven flux ropes through current density, field topology, and electron drift velocity. <a href="https://doi.org/10.1038/s41586-025-09345-9">Park et al., 2025, Fig. 4</a>. CC BY-NC-ND 4.0.</figcaption>
     </figure>
   </section>
 

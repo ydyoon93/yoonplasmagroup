@@ -5,12 +5,12 @@ permalink: /team/pi/
 
 <img class="pi-photo" src="{{ '/assets/team/young-dae-yoon.jpg' | relative_url }}" alt="Young Dae Yoon">
 
-**(Incoming) Assistant Professor**, UCLA Department of Physics &amp; Astronomy
+**Assistant Professor**, UCLA Department of Physics &amp; Astronomy (2026-Present)
 
 ## Experience
 
-- Adjunct Professor, Pohang University of Science and Technology (2023-Present)
-- Junior Research Group Leader, Asia Pacific Center for Theoretical Physics (2022-Present)
+- Adjunct Professor, Pohang University of Science and Technology (2023-2026)
+- Junior Research Group Leader, Asia Pacific Center for Theoretical Physics (2022-2026)
 - Post-Doc (Alternative Military Service), Pohang Accelerator Laboratory (2020-2022)
 
 ## Education
